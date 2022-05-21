@@ -1,10 +1,10 @@
-# Very short description of the package
+# Laravel Spatie Role Permission
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/mdhesari/laravel-spatie-role-permission.svg?style=flat-square)](https://packagist.org/packages/mdhesari/laravel-spatie-role-permission)
 [![Total Downloads](https://img.shields.io/packagist/dt/mdhesari/laravel-spatie-role-permission.svg?style=flat-square)](https://packagist.org/packages/mdhesari/laravel-spatie-role-permission)
 ![GitHub Actions](https://github.com/mdhesari/laravel-spatie-role-permission/actions/workflows/main.yml/badge.svg)
 
-This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what PSRs you support to avoid any confusion with users and contributors.
+Laravel role-permission based on spatie role-permission package
 
 ## Installation
 
@@ -18,6 +18,7 @@ composer require mdhesari/laravel-spatie-role-permission
 
 ```php
 // Usage description here
+User extends \Mdhesari\LaravelSpatieRolePermission\Models\User {...}
 ```
 
 ### Testing
@@ -46,7 +47,3 @@ If you discover any security related issues, please email mdhesari99@gmail.com i
 ## License
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
-
-## Laravel Package Boilerplate
-
-This package was generated using the [Laravel Package Boilerplate](https://laravelpackageboilerplate.com).
